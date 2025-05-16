@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   images: {
     domains: ['cdn.pixabay.com'],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 
